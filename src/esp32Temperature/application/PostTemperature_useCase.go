@@ -6,7 +6,7 @@ import (
 )
 
 type PostSensor struct {
-	db domain.ISensor
+	db domain.ISensor 
 
 }
 
