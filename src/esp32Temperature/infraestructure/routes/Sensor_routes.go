@@ -11,8 +11,6 @@ func Routes(router *gin.Engine) {
 
 	postSensorController := dependencies.GetPostSensorController()
 
-
-	
 	routes.POST("/", postSensorController.Execute) 
 
 }
